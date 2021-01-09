@@ -1,3 +1,38 @@
+*******************
+Virtual environment
+*******************
+
+Windows
+=======
+C:\my_proj> python.exe -m venv /path/to/new/virtual/environment
+
+C:\my_proj> python.exe -m venv my_env
+(This creates the folder C:\my_proj\my_env)
+
+Activate
+--------
+C:\my_proj> <venv>\Scripts\activate(.bat)
+where <venv> is the path to the virtual environment
+
+Example:
+C:\my_proj> C:\my_proj\my_env\Scripts\activate(.bat)
+C:\my_proj> .\my_env\Scripts\activate(.bat)
+
+Activate (temporarily) adds C:\myproj\my_env\Scripts\ to PATH.
+Deactivate removes it.
+
+Deactivate
+----------
+C:\my_proj> C:\my_proj\my_env\Scripts\deactivate(.bat)
+C:\my_proj> deactivate
+
+This removes C:\my_proj\my_env\Scripts\ from PATH.
+
+Delete (just delete the folder)
+-------------------------------
+C:\my_proj> del my_env
+
+
 ******************
 Install matplotlib
 ******************
