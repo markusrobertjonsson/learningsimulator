@@ -140,3 +140,23 @@ After above test has run and .coverage has been created:
 C:\Users\markj\lesim\lesim2>C:\Python38\Scripts\coverage-badge.exe -o coverage.svg
 
 This creates the file coverage.svg.
+
+***
+Git
+***
+
+To list all commits since last tag (also possible in GitHub on "Releases" page
+(e.g. github.com/learningsimulator/learningsimulator/releases) by clicking
+"n commits to master since this release".
+==================================
+git log $(git describe --tags --abbrev=0)..HEAD --no-merges --oneline > new-in-this-release.log
+
+Automatically add any changes to tracked files, and commit
+==========================================================
+git commit -a
+or
+git commit -am "Commit message."
+
+Show the diff that you are about to commit
+==========================================
+git diff --staged
