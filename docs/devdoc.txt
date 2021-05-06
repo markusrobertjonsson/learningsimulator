@@ -145,6 +145,10 @@ This creates the file coverage.svg.
 Git
 ***
 
+Find remote repository
+======================
+git config --get remote.origin.url
+
 To list all commits since last tag (also possible in GitHub on "Releases" page
 (e.g. github.com/learningsimulator/learningsimulator/releases) by clicking
 "n commits to master since this release".
