@@ -78,6 +78,10 @@ or, with pytest:
 
 C:\Users\markj\lesim>pytest [tests]
 
+To use a different Python installation, for example:
+
+C:\Users\markj\lesim\learningsimulator> C:\Python38\python.exe -m pytest
+
 
 *************************
 Build EXE-file on Windows
