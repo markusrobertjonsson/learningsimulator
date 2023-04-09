@@ -110,7 +110,9 @@ python /the/path/to/winpdb.py my_program.py
 Docs build
 **********
 
-(Requires packages sphinx and recommonmark.)
+Requires packages sphinx and recommonmark:
+pip install sphinx
+pip install recommonmark
 
 In the docs folder, run
 
